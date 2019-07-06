@@ -5,7 +5,7 @@ var SlackBot = require('slackbots');
 // https://www.youtube.com/watch?v=nyyXTIL3Hkw&t=578s
 
 var bot = new SlackBot({
-    token: 'XXXXXXXXXXX', // select the bot -than select  OAuth & Permission - than copy the Bot User OAuth Access Token
+    token: 'xxxxx', // select the bot -than select  OAuth & Permission - than copy the Bot User OAuth Access Token
     name: 'demobot'
 });
 
