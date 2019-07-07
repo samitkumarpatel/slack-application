@@ -5,6 +5,7 @@ How to start ?
 * Navigate to 
 ```
 https://api.slack.com/apps
+https://api.slack.com/apps/<APP_ID>
 ```
 * Select / Create slackbot
 * and choose the Features you are intrsted to build
