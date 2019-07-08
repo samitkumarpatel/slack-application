@@ -56,9 +56,9 @@ duplicateMessage = function(msgId) {
 respondToTheUser = function(text,ts) {
     console.log("respondToTheUser - got a request")
     // test the api https://api.slack.com/methods/chat.postMessage/test
-    // https://slack.com/api/chat.postMessage?token=xoxb-376179074563-632376819460-b0OGx9aJE3nJl4iyfHv6MZrA&channel=CB1H4M17A&text=this%20is%20the%20reply%20mesage&thread_ts=1562498222.001500&pretty=1
+    // https://slack.com/api/chat.postMessage?token=XXXXXXXXXXXXXXXX&channel=CB1H4M17A&text=this%20is%20the%20reply%20mesage&thread_ts=1562498222.001500&pretty=1
     
-    apiUrl = "https://slack.com/api/chat.postMessage?token=xoxb-376179074563-632376819460-b0OGx9aJE3nJl4iyfHv6MZrA&channel=CB1H4M17A&text="+text+"&thread_ts="+ts+"&pretty=1"
+    apiUrl = "https://slack.com/api/chat.postMessage?token=XXXXXXXXXXXXXXXXXX&channel=CB1H4M17A&text="+text+"&thread_ts="+ts+"&pretty=1"
     axios.get(apiUrl,(req,res) => {
         console.log(res.body)
     })
